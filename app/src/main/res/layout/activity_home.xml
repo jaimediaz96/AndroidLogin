@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBlack"
+    android:background="@color/black"
 
     tools:context=".Home">
     <LinearLayout
@@ -65,7 +65,7 @@
             android:onClick="volver"
             android:padding="20dp"
             android:text="@string/volver"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/black"
             tools:ignore="VisualLintButtonSize" />
 
     </LinearLayout>
