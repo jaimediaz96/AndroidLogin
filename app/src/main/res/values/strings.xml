@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="volver">Volver</string>
+    <string name="terminos">Aceptar terminos de privacidad</string>
+    <string name="name">Nombre:</string>
+    <string name="password">Password:</string>
+    <string name="sentName">nombre Enviado</string>
+    <string name="sentPassword">Contraseña Enviado</string>
+    <string name="user">Usuario</string>
+    <string name="online">Online</string>
+    <string name="on">Online</string>
+    <string name="datos">DATOS</string>
+    <string name="onli">Is Online</string>
+</resources>
