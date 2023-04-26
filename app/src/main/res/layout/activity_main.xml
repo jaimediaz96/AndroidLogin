@@ -21,6 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="15dp"
+        android:layout_weight="9"
+        android:autofillHints=""
         android:background="@drawable/border_text"
         android:backgroundTint="@color/white"
         android:drawableStart="@drawable/ic_person"
@@ -28,27 +30,25 @@
         android:ems="10"
         android:hint="@string/user"
         android:inputType="textPersonName"
-        android:layout_weight="9"
         android:padding="15dp"
-        android:autofillHints=""
-        tools:ignore="VisualLintTextFieldSize" />
+        tools:ignore="VisualLintTextFieldSize,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="15dp"
+        android:layout_weight="9"
+        android:autofillHints=""
+        android:background="@drawable/border_text"
+        android:backgroundTint="@color/white"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="5dp"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:drawableStart="@drawable/ic_lock"
-        android:drawablePadding="5dp"
-        android:background="@drawable/border_text"
-        android:backgroundTint="@color/white"
         android:padding="15dp"
-        android:layout_weight="9"
-        android:layout_margin="15dp"
-        android:autofillHints=""
-        tools:ignore="VisualLintTextFieldSize" />
+        tools:ignore="VisualLintTextFieldSize,TouchTargetSizeCheck" />
 
 
     <Switch
@@ -80,8 +80,7 @@
         android:layout_weight="10"
         android:onClick="Login"
         android:padding="20dp"
-        android:text="@string/ingresar"
+        android:text="@string/in"
         android:background="@color/white"
-        android:textColor="@color/black"
-        tools:ignore="VisualLintButtonSize" />
+        android:textColor="@color/black" />
 </LinearLayout>
