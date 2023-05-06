@@ -35,6 +35,12 @@ public class Home extends AppCompatActivity {
         pass.setText(info);
     }
 
+    public void api(View h) {
+        Intent ir =  new Intent(this, ConsumeAPI.class);
+        ir.addFlags(ir.FLAG_ACTIVITY_CLEAR_TASK | ir.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(ir);
+    }
+
     public void volver(View h){
         Intent ir =  new Intent(this, MainActivity.class);
         ir.addFlags(ir.FLAG_ACTIVITY_CLEAR_TASK | ir.FLAG_ACTIVITY_CLEAR_TOP);

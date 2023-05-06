@@ -57,6 +57,17 @@
             android:textSize="40sp" />
 
         <Button
+            android:id="@+id/api"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="api"
+            android:padding="20dp"
+            android:backgroundTint="@color/white"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:text="@string/api" />
+
+        <Button
             android:id="@+id/back"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
