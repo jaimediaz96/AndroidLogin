@@ -25,6 +25,7 @@
         android:autofillHints=""
         android:background="@drawable/border_text"
         android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:drawableStart="@drawable/ic_person"
         android:drawablePadding="10dp"
         android:ems="10"
@@ -42,6 +43,7 @@
         android:autofillHints=""
         android:background="@drawable/border_text"
         android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:drawableStart="@drawable/ic_lock"
         android:drawablePadding="5dp"
         android:ems="10"
@@ -80,7 +82,8 @@
         android:layout_weight="10"
         android:onClick="Login"
         android:padding="20dp"
+        android:backgroundTint="@color/white"
         android:text="@string/in"
-        android:background="@color/white"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        tools:ignore="VisualLintButtonSize" />
 </LinearLayout>

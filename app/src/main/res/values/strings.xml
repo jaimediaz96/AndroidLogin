@@ -12,4 +12,9 @@
     <string name="on">Online</string>
     <string name="datos">DATOS</string>
     <string name="onli">Is Online</string>
+    <string name="send">Enviar</string>
+    <string name="body">Mensaje</string>
+    <string name="title">Titulo</string>
+    <string name="userid">ID</string>
+
 </resources>
