@@ -28,6 +28,7 @@
         android:ems="10"
         android:hint="@string/userid"
         android:inputType="text"
+        android:minHeight="48dp"
         android:padding="10dp" />
 
     <EditText
@@ -66,7 +67,7 @@
         android:background="@color/colorAccent"
         android:padding="5dp"
         android:text="@string/send"
-        android:textColor="@color/white" />
+        android:textColor="#4A148C" />
 
     <Button
         android:id="@+id/btnConsultar"
@@ -76,8 +77,8 @@
         android:background="@color/colorAccent"
         android:onClick="consultar"
         android:padding="5dp"
-        android:text="Consultar"
-        android:textColor="@color/white" />
+        android:text="@string/consultar"
+        android:textColor="#4A148C" />
 
     <Button
         android:id="@+id/btnActualizar"
@@ -87,8 +88,8 @@
         android:background="@color/colorAccent"
         android:onClick="actualizar"
         android:padding="5dp"
-        android:text="Actualizar"
-        android:textColor="@color/white" />
+        android:text="@string/actualizar"
+        android:textColor="#4A148C" />
 
     <Button
         android:id="@+id/btnEliminar"
@@ -96,10 +97,11 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="@color/colorAccent"
+        android:minHeight="48dp"
         android:onClick="eliminar"
         android:padding="5dp"
-        android:text="Eliminar"
-        android:textColor="@color/white" />
+        android:text="@string/eliminar"
+        android:textColor="#4A148C" />
 
     <Button
         android:id="@+id/btnVolver"

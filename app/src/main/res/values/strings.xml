@@ -16,5 +16,8 @@
     <string name="body">Mensaje</string>
     <string name="title">Titulo</string>
     <string name="userid">ID</string>
+    <string name="consultar">Consultar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="eliminar">Eliminar</string>
 
 </resources>
